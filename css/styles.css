@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@200&family=Sacramento&display=swap');
+
+:root {
+    --merri: 'Merriweather', serif;
+    --mont: 'Montserrat', sans-serif;
+    --sac: 'Sacramento', cursive;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: var(--merri);
+    text-align: center;
+}
+.top-container {
+    background: #EAF6F6;
+    font-size: 1.2rem;
+    position: relative;
+    padding-top: 4rem;
+}
+h1 {
+    color: #66BFBF;
+    font-family: var(--sac);
+    font-size: 5.5rem;
+    margin-top: 4rem;
+}
+h2 {
+    color: #66BFBF;
+    font-family: var(--mont);
+    font-size: 2.5rem;
+}
+h3 {
+    color: #11999E;
+    font-family: var(--merri);
+}
+a {
+    color: #11999E;
+}
+
+.pro {
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 0, 255);
+}
+.top-container .bottom-cloud {
+    left: 20%;
+    position: absolute;
+    top: 50%;
+}
+.top-container .top-cloud {
+    position: absolute;
+    right: 25%;
+}
+.top-container .mountain {
+    margin-top: 5rem;
+}
+.skills {
+    margin: 5rem 0;
+}
+.profile {
+    margin: 100px auto;
+    line-height: 2;
+    width: 40%;
+}
+* hr {
+    width: 10%;
+    border-color: #EAF6F6;
+    border-width: 1rem;
+    border-style: dotted;
+    border-bottom: 0;
+    margin: 0 auto;
+}
+.profile-img {
+    background-color: #EAF6F6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    margin: 0 auto;
+    width: 15rem;
+}
+.regan-img {
+    height: 90%;
+}
+.skill-row {
+    margin: 100px auto;
+    line-height: 2;
+    width: 50%;
+    text-align: left;
+}
+.py-img {
+    float: left;
+    margin-right: 2rem;
+    width: 25%;
+}
+.analyst-img {
+    float: right;
+    margin-left: 2rem;
+    width: 25%;
+}
+
+.contact-me {
+    margin: 4rem;
+}
+
+.contact-me > h2 {
+    margin: 4rem;
+}
+
+.contact-me > h3 {
+    margin-bottom: 2rem;
+}
+
+.contact-me > p  {
+    width: 50%;
+    margin: 0 auto 2rem auto;
+}
+.btn {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #11999E;
+    color: white;
+}
+.bottom-container {
+    background-color: #66BFBF;
+    height: 10rem;
+    padding: 2rem;
+}
+.footer-link {
+    margin: 3rem;
+    text-decoration: none;
+}
+.bottom-container > p {
+    margin-top: 4rem;
+    color: #EAF6F6;
+    font-size: 0.8rem;
+}
